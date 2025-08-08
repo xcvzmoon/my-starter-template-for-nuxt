@@ -9,7 +9,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "format": "prettier --write app/ server/ shared/ nuxt.config.ts",
+    "format": "prettier --write app/ nuxt.config.ts",
     "lint": "oxlint . --fix -D correctness --ignore-path .gitignore"
   },
   "dependencies": {
