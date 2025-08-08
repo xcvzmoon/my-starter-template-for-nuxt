@@ -11,14 +11,7 @@ import {
 type Props = ScrollAreaRootProps & {
   class?: HTMLAttributes['class'];
   mount?: 'vertical' | 'horizontal' | 'both';
-  color?:
-    | 'primary'
-    | 'secondary'
-    | 'success'
-    | 'info'
-    | 'warning'
-    | 'error'
-    | 'neutral';
+  color?: 'primary' | 'secondary' | 'success' | 'info' | 'warning' | 'error' | 'neutral';
 };
 
 const props = defineProps<Props>();
