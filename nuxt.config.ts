@@ -1,7 +1,7 @@
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
+  compatibilityDate: '2025-08-08',
 
   css: ['~/assets/css/main.css'],
 
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxt/eslint', '@nuxt/ui'],
+  modules: ['@nuxt/eslint', '@nuxt/ui', '@vueuse/nuxt'],
 
   colorMode: {
     preference: 'dark',

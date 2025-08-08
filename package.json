@@ -1,7 +1,7 @@
 {
   "name": "@xcvzmoon/xcvz-template",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -9,12 +9,14 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "oxlint"
+    "format": "prettier --write app/ server/ shared/ nuxt.config.ts",
+    "lint": "oxlint . --fix -D correctness --ignore-path .gitignore"
   },
   "dependencies": {
     "@nuxt/eslint": "1.8.0",
     "@nuxt/ui": "3.3.0",
     "@tailwindcss/vite": "^4.1.11",
+    "@vueuse/nuxt": "13.6.0",
     "eslint": "^9.32.0",
     "nuxt": "^4.0.3",
     "tailwindcss": "^4.1.11",
